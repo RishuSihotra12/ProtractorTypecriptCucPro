@@ -1,0 +1,142 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "I am going to validate my wesite functionalities",
+    "line": 1,
+    "id": "i-am-going-to-validate-my-wesite-functionalities",
+    "tags": [],
+    "uri": "feature\\demo.feature",
+    "elements": [
+      {
+        "id": "i-am-going-to-validate-my-wesite-functionalities;calculator-add-functionality-testing",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Calculator add functionality testing",
+        "tags": [
+          {
+            "name": "@calculatorTesting2",
+            "line": 15
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "I will navigate to \"calculator\" site",
+            "match": {
+              "location": "stepdefinations\\steps.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 456000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I add two numbers \"4\" and \"4\"",
+            "match": {
+              "location": "stepdefinations\\steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 181000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "the output displayed should be \"8\"",
+            "match": {
+              "location": "stepdefinations\\steps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9150000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "i-am-going-to-validate-my-wesite-functionalities;calculator-add-functionality-testing",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Calculator add functionality testing",
+        "tags": [
+          {
+            "name": "@calculatorTesting2",
+            "line": 15
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "I will navigate to \"calculator\" site",
+            "match": {
+              "location": "stepdefinations\\steps.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 244000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I add two numbers \"6\" and \"4\"",
+            "match": {
+              "location": "stepdefinations\\steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 225000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "the output displayed should be \"10\"",
+            "match": {
+              "location": "stepdefinations\\steps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9119000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
